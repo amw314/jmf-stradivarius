@@ -69,6 +69,10 @@ p[epub|type~="z3998:salutation"]{
 	font-variant: small-caps;
 }
 
+b[epub|type~="z3998:salutation"]{
+	font-variant: small-caps;
+}
+
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
 }
