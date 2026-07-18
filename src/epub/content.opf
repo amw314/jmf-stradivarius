@@ -32,14 +32,13 @@
 		<dc:subject id="subject-1">Musical fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85088958</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
-		</meta>
+		<meta property="schema:genre">Fiction</meta>
+		<meta property="schema:genre">Horror</meta>
+		<dc:description id="description">A talented young musician comes into possession of an old manuscript and a beautiful violin, and is consumed by the history they carry.</dc:description>
+		<meta id="long-description" property="se:long-description" refines="#description">&lt;a href="https://standardebooks.org/ebooks/john-meade-falkner"&gt;John Meade Falkner&lt;/a&gt; published his first novel, &lt;i&gt;The Lost Stradivarius&lt;/i&gt;, in 1896. Set in the aristocratic setting he knew from personal experience, a story that initially closely mirrors his own--that of a young man studying at Oxford--takes a turn for the uncanny, and from there delves progressively deeper into old blasphemies and new madness. &lt;i&gt;The Lost Stradivarius&lt;/i&gt; proved to be the debut of a solid figure in the turn-of-the-century British literary milieu, bridging from the ghost stories of &lt;a href="https://standardebooks.org/ebooks/m-r-james"&gt;M.R. James&lt;/a&gt; to the crime fiction of &lt;a href="https://standardebooks.org/ebooks/dorothy-l-sayers"&gt;Dorothy L. Sayers&lt;/a&gt;, who cited Falkner as one of her earlier influences.</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/14107</dc:source>
-		<dc:source>PAGE_SCANS_URL</dc:source>
+		<dc:source>https://archive.org/details/loststradivarius00falk</dc:source>
 		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
@@ -47,30 +46,29 @@
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/john-meade-falkner_the-lost-stradivarius</meta>
 		<dc:creator id="author">John Meade Falkner</dc:creator>
 		<meta property="file-as" refines="#author">Falkner, John Meade</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/John_Meade_Falkner</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n82017667</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST_NAME</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">William Michael Harnett</dc:contributor>
+		<meta property="file-as" refines="#artist">Harnett, William Michael</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/William_Harnett</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/nr90023310</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER_1_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_1_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_1_URL</meta>
-		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">TRANSCRIBER_2_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_2_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-2">TRANSCRIBER_2_URL</meta>
-		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-1">Suzanne Shell</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Shell, Suzanne</meta>
+		<!-- <meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_1_URL</meta>
+		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta> -->
+		<dc:contributor id="transcriber-2">Melissa Er-Raqabi</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Er-Raqabi, Melissa</meta>
+		<!-- <meta property="se:url.homepage" refines="#transcriber-2">TRANSCRIBER_2_URL</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta> -->
 		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
 		<meta property="se:url.homepage" refines="#transcriber-3">https://www.pgdp.net/</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER_NAME</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">M. Wintersmith</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Wintersmith, M.</meta>
+		<!--		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>-->
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
