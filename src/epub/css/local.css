@@ -17,7 +17,6 @@
 	font-variant: small-caps;
 	margin-top: 1em;
 }
-
 /* End all epigraphs */
 
 /* Full-page epigraphs */
@@ -47,7 +46,6 @@ section[epub|type~="epigraph"] > *{
 	section[epub|type~="epigraph"] > *{
 		margin: 0;
 	}
-
 }
 /* End full-page epigraphs */
 
@@ -76,7 +74,6 @@ b[epub|type~="z3998:salutation"]{
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
 }
-
 /* End letters */
 
 /* Verse */
