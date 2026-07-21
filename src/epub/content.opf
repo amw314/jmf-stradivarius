@@ -33,9 +33,7 @@
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85088958</meta>
 		<meta property="schema:genre">Fiction</meta>
-		<meta property="se:subject">Fiction</meta>
 		<meta property="schema:genre">Horror</meta>
-		<meta property="se:subject">Horror</meta>
 		<dc:description id="description">A talented young musician comes into possession of an old manuscript and a beautiful violin, and is consumed by the history they carry.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/john-meade-falkner"&gt;John Meade Falkner&lt;/a&gt; published his first novel, &lt;i&gt;The Lost Stradivarius&lt;/i&gt;, in 1896. Set in the aristocratic setting he knew from personal experience, a story that initially closely mirrors his own—that of a young man studying at Oxford—takes a turn for the uncanny, and from there delves progressively deeper into old blasphemies and new madness.&lt;/p&gt; 
@@ -45,19 +43,19 @@
 		<dc:source>https://www.gutenberg.org/ebooks/14107</dc:source>
 		<dc:source>https://archive.org/details/loststradivarius00falk</dc:source>
 		<meta property="se:production-notes">None</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
+		<meta property="schema:wordCount">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Lost_Stradivarius</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/john-meade-falkner_the-lost-stradivarius</meta>
 		<dc:creator id="author">John Meade Falkner</dc:creator>
 		<meta property="file-as" refines="#author">Falkner, John Meade</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/John_Meade_Falkner</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n82017667</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n82017667.html</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">William Michael Harnett</dc:contributor>
 		<meta property="file-as" refines="#artist">Harnett, William Michael</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/William_Harnett</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/nr90023310</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/nr90023310.html</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Suzanne Shell</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Shell, Suzanne</meta>
